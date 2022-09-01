@@ -1,0 +1,2 @@
+print(temp)
+print(humid)

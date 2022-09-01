@@ -2,7 +2,9 @@ clear
 % 近くにあるBluetooth Low Energy周辺デバイスのスキャン(5s間)
 t_scan_advertise_struct = blelist("Timeout",10);
 % 温湿度計のデバイスIDを取得
+% t_thermoHygrometer_id = "CD4481C85078";
 t_thermoHygrometer_id = "DB023921EECA";
+
 % 温湿度計のデバイスに接続
 t_thermoHygrometer = ble(t_thermoHygrometer_id);
 % UUIDを取得
